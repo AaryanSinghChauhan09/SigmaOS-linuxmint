@@ -3,4 +3,4 @@
 
 pub mod linuxmint_inspirations;
 
-pub use linuxmint_inspirations::LinuxMint;
+pub use linuxmint_inspirations::*;
