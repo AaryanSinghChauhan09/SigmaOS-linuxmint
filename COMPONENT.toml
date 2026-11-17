@@ -3,12 +3,12 @@ name = "SigmaOS-linuxmint"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "linuxmint component"
+description = "SigmaOS Linux Mint compatibility and integration layer"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
