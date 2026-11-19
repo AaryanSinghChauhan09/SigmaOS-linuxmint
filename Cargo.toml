@@ -1,16 +1,15 @@
 [package]
-name = "sigmaos-linuxmint"
+name = "SigmaOS-linuxmint"
 version = "0.1.0"
 edition = "2021"
-authors = ["SigmaOS Project"]
-description = "Linux Mint inspirations"
-license = "GPL-3.0-or-later"
-repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-linuxmint"
-readme = "README.md"
-keywords = ["linuxmint", "inspirations", "mint"]
-categories = ["development-tools"]
+license = "Apache-2.0"
+description = "SigmaOS sigmaos_linuxmint component"
+
+[lib]
+name = "sigmaos_linuxmint"
+path = "src/lib.rs"
 
 [dependencies]
+thiserror = "1"
 
-[profile.release]
-opt-level = 3
+[dev-dependencies]
